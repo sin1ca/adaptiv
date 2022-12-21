@@ -1237,7 +1237,7 @@ h2{
     }
 
     .kart{
-        height: 400px;
+        height: auto;
         width: 95%;
     }
 
@@ -1324,7 +1324,7 @@ h2{
         font-size: 20px;
     }
     .kart{
-        height:415px
+        height:auto
     }
     .Cartrix_div{
         margin-bottom: 20px;
@@ -1342,7 +1342,7 @@ h2{
         font-size: 13px
     }
     .kart{
-        height:500px
+        height:auto
     }
     .sub_inf{
 
