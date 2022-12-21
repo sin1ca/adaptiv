@@ -1,0 +1,1355 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;1,400&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,800;1,800&display=swap');
+
+/*Обнуляющие стили*/
+/*Очистим все отступы и границы*/
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+/*Убираем линии обводки некоторых браузеров*/
+:focus,
+:active {
+    outline: none;
+}
+a:focus,
+a:active {
+    outline: none;
+}
+
+/*задаем блочными теги Html5*/
+nav,
+footer,
+header,
+aside {
+    display: block;
+}
+
+html,
+body {
+  /* font-family: "Lato", sans-serif; */
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 30px;
+    font-size: 20px;
+    color: #000000;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+/*задаем наследование шрифтов*/
+input,
+button,
+textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+    color: inherit
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+body{
+    height: auto;
+    background-color: #040F28;
+}
+
+.cont_head{
+    display: flex;
+    max-height: 50px;
+    max-width: 1140px;
+    margin: 0 auto;
+    align-items: center;
+    margin-top: 50px;
+}
+
+hr{
+    height: 2px;
+    width: 80%;
+    opacity: 50%;
+    background-color: #C4C4C4;
+}
+
+nav{
+    min-height: 85px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.freelancer{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #C4C4C4;
+    
+    animation-name: freel;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+button{
+    width: 140px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 30px;
+    color: #FFFFFF;
+    transition: 0.5s;
+}
+
+.community{
+
+}
+
+.list{
+    display: flex;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    color: #646464;
+}
+
+.list a{
+    margin-right: 50px;
+}
+
+.register{
+    padding: 14px 30px;
+    width: 126px;
+    height: 53px;
+    background-color: #040F28;;
+    border: solid #C4C4C4;
+    border-radius: 87px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.burg_button{
+    width: 32px;
+    background-color: #040F28;
+    scale: 260%;
+}
+
+.comm_burg{
+    display: none;
+    width: 32px;
+}
+
+section{
+    margin: 0 auto;
+}
+
+.section.first{
+    display: flex;
+    max-width: 1140px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.Hy{
+    margin-top: 250px;
+    max-width: 530px;
+    max-height: 355px;
+}
+
+
+
+#first_article{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 74px;
+    text-transform: capitalize;
+    color: #C4C4C4;
+}
+
+#service{
+    margin-top: 20px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #646464;
+}
+
+.get_started{
+    margin-top: 40px;
+    width: 169px;
+    height: 61px;
+    left: 141px;
+    top: 531px;
+    background: #FC3867;
+    border-radius: 87px;
+}
+
+.boss{
+    margin-top: 60px;
+
+    animation-name: boss;
+    animation-duration: 2s;
+}
+
+.section.second{
+    width: 100%;
+    display: flex;
+    height: 317px;
+    background-color: #FFFFFF;
+    justify-content: center;
+}
+
+.second_sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sscont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.feedback{
+    margin-right:  109px;
+}
+
+.QandA{
+    margin-left: 107px;
+    margin-right: 107px;
+}
+
+.experience{
+    margin-left: 109px;
+}
+
+.numbers{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 74px;
+    text-align: center;
+    letter-spacing: -0.005em;
+    color: #070707;
+}
+
+.sec_span{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: -0.005em;
+    color: #070707;
+}
+
+.third_span{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: -0.005em;
+    color: #C4C4C4;
+}
+
+.sec_service{
+    max-width: none;
+    margin-top: 150px;
+    width: 65%;
+    margin-bottom: 110px;
+}
+
+.best_ser{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 180%;
+    color: #FFFFFF;  
+}
+
+.bs{
+    line-height: 18px;
+    letter-spacing: 1px;
+}
+
+.main_span{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-transform: capitalize;
+    color:  #FFFFFF;
+}
+
+.BYGW{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    letter-spacing: -0.5px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.bs_flex{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.BEG{
+    margin-top: 56px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.BQ{
+    display: flex;
+}
+
+.bq_img{
+    margin-right: 16px;
+}
+
+h1{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 41px;
+    color: #FFFFFF;
+}
+
+h2{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+} 
+
+.WWHFY{
+
+}
+
+.h1_h2_wwhfy{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 72px;
+}
+
+#wwhfy_h1{
+    margin-bottom: 30px;
+}
+
+.cont_kart{
+    margin: 0 auto;
+    width: 66%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.kart{
+    position: relative;
+    width: 580px;
+    height: 267px;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    margin-bottom: 80px;
+    transition: 1s;
+    
+}
+
+.kart:hover .inf_ins{
+    opacity: 0.1; 
+    transition: 0.4s;
+}
+    
+.kart:hover{
+    scale: 110%;
+    background: linear-gradient(120deg,rgba(252, 56, 103), rgba(255, 165, 165));
+}
+
+.kart:hover .text_animation{
+    opacity: 1;
+}
+
+.text_animation{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 28px;
+    color: #FFFFFF;
+    opacity: 0;
+    transition: 1s;
+
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    z-index: 2;
+    transform: translate3d(0, -50%, 0);
+    width: 100%;
+
+}
+
+.inf_ins{
+    display: flex;
+    padding: 5%;
+}
+
+.main_span_2{
+    margin-bottom: 24px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.kart_flex{
+    display: flex;
+    flex-direction: column;
+    margin-left: 16px;
+}
+
+.Creative_work{
+    width: 100%;
+}
+
+.sec_span_2{  
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    color: #272727;
+}
+
+#SFMCW{
+    margin-top: 110px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 46px;
+    color: #FFFFFF;
+}
+
+#An_all{
+    margin-top: 18px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #999999;
+}
+
+.cont_kart.second{
+    align-content: space-between;
+    height: 664px;
+    margin-bottom: 144px;
+}
+
+.price{
+    width: 70%;
+}
+
+#our_price{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+#available{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.price_card{
+    width: 350px;
+    height: 450px;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+}
+
+.price_inf{ 
+    position: absolute; 
+    padding-left: 24px;
+    padding-top: 52px;
+}
+
+.level{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+}
+
+.month{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #000000;
+}
+
+.baks{
+    max-width: 145px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.dollars{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 55px;
+    color: #000000;
+}
+
+.inf_galochka{
+    display: flex;
+    flex-direction: column;
+}
+
+.text_galochka{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #272727;
+    margin-left: 8px;
+}
+
+.galochka_flex{
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.get_started_2{
+    width: 169px;
+    height: 61px;
+    left: 141px;
+    top: 531px;
+    background: #ffffff;
+    border: 1.2px solid #272727;
+    border-radius: 87px;
+    color: #000000;
+}
+
+.button_cont{
+    display: flex;
+    height: 90%;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.card_cont{
+    display: flex;
+    justify-content: space-around;
+}
+
+.subscribe{
+    margin-top: 170px;
+    width: 100%;
+    height: 265px;
+    background-color: #FFFFFF;
+
+}
+
+.sub_inf{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#subs_now{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #C4C4C4;
+}
+#sub_to_get{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 64px;
+    color: #212226;
+}
+#sub_button{
+    padding: 16px 32px;
+    border-radius: 87px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #FC3867;
+}
+
+.footer{
+    width:  100%;
+    height: auto;
+    background-color: #070707;
+}
+
+.social_img{
+    display: flex;
+    width: 175px;
+    margin-top: 25px;
+    justify-content: space-between;
+}
+
+.footer_second{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #C4C4C4;
+}
+
+.Cartrix_div{
+    height: 265px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#Cartrix{
+    margin-bottom: 16px;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.Title_and_Menu{
+    display: flex;
+    width: 750px;
+    justify-content: space-between;
+}
+
+.menu{
+    color: #C4C4C4;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.footer_top{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.menu_top_font{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+.a_menu{
+    color: #C4C4C4;
+    margin-top: 27px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.footer_bot{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+#last_span{
+    margin-top: 20px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: rgba(196, 196, 196, 0.5);
+}
+
+.list a:hover{
+    opacity: 1;
+    color: #C4C4C4;
+}
+
+.button_cont button:hover{
+    background-color: #FC3867;
+    color: #ffffff;
+    transition: 0.4s;
+    width: 205px;
+    border: none;
+    opacity: 1;
+}
+
+.section button:hover{
+    width: 205px;
+    height: 70px;
+}
+
+.sub_inf button:hover{
+    width: 205px;
+}
+
+.EBYCHAYA_PALKA{
+
+}
+
+@media (max-width: 1440px){
+    
+    .BEG{
+        margin-top: 56px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .sec_service{
+        width: 80%;
+    }
+
+    .cont_kart{
+        width: 84%;
+    }
+
+    .cont_kart.second{
+        align-content: space-between;
+        height: 664px;
+        margin-bottom: 144px;
+    }
+
+    .price{
+        width: 90%;
+    }
+
+    .card_cont{
+        display: flex;
+        justify-content: space-around;
+    }
+
+}
+
+@media (max-width: 1024px) {
+
+    #first_article {
+        font-size: 40px;
+    }
+
+    .section.first{
+        justify-content: space-evenly;
+    }
+
+    .Hy{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 45%;
+        margin-top: 200px;
+    }
+
+    #service{
+        text-align: center;
+    }
+    
+    .boss{
+        scale: 90%;
+    }
+
+    .section.second{
+        height: 250px;
+    }
+
+    .sec_service {
+        width: 90%;
+    }
+
+    .kart_flex{
+        width: 340px;
+    }
+
+    .sec_span_2{
+        font-size: 17px;
+    }
+
+    .inf_ins{
+        width: 486px;
+    }
+
+    .kart{
+        margin-bottom: 30px;
+        width: 490px;
+    }
+
+    .cont_kart{
+        width: 97%;
+    }
+
+    #SFMCW{
+        margin-top: 70px;
+    }
+
+    #An_all{
+        font-size: 16px;
+    }
+
+    .cont_kart.second{
+        height: auto;
+        justify-content: space-around;
+        margin-bottom: 50px;
+    }
+
+    .works{
+        padding-bottom: 50px;
+    }
+    
+    .price_card{
+        width: 280px;
+        height: 400px;
+    }
+
+    .subscribe{
+        margin-top: 100px;
+    }
+
+    .card_cont{
+        
+    }
+
+    .Title_and_Menu{
+        width: 55%;
+    }
+
+    .kart:hover {
+        scale: 105%;
+    }
+}
+
+
+
+@media (max-width: 830px) {
+    
+    .feedback {
+        margin-right: 60px;
+    }
+
+    .QandA{
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+
+    .experience{
+        margin-left: 60px;
+    }
+}
+
+@media (max-width: 768px) {
+    
+    header{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    nav{
+        width: 100%;
+        justify-content: space-between;
+
+    }
+
+    .list{
+        display: none;
+    }
+
+    .boss{
+        display: none;
+    }
+
+    .community{
+        display: none;
+    }
+
+    .comm_burg{
+        display: block;
+    }
+
+    .Hy{
+        margin-top: 90px;
+        width: 80%;
+        margin-bottom: 80px;
+    }
+
+    #first_article{
+        font-size: 48px;
+
+    }
+
+    #service {
+        font-size: 23px;
+    }
+
+    .get_started{
+        scale: 125%;
+    }
+
+    .bs{
+        display: none;
+    }
+
+    .BYGW{
+        text-align: center;
+        font-size: 50px;
+        margin-bottom: 30px;
+    }
+
+    .best_ser.while{
+        font-size: 18px;
+    }
+
+    .bs_flex{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .BQ{
+        width: 50%;
+        margin-bottom: 50px;
+    }
+
+    .stick{
+        display: none;
+    }
+
+    .BEG{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .sec_service{
+        margin-bottom: 50px;
+    }
+
+    .kart{
+        width: 95%;
+    }
+
+    .cont_kart{
+        justify-content: center;
+    }
+
+    .inf_ins{
+        width: 100%;
+        padding: 5%;
+        justify-content: space-around;
+    }
+
+    .sec_span_2 {
+        font-size: 19px;
+    }
+
+    .main_span_2 {
+        font-size: 30px;
+    }
+
+    .kart_flex{
+        width: 70%;
+    }
+
+    h1{
+        font-size: 50px;
+    }
+
+    h2{
+        font-size: 30px;
+    }
+
+    #SFMCW{
+        font-size: 52px;
+    }
+
+    #An_all{
+        margin-top: 30px;
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+
+    .works{
+        scale: 120%;
+        padding-bottom: 120px;
+    }
+    
+    #our_price{
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+
+    .price_card{
+        width: 70%;
+        height: 470px;
+        margin-bottom: 70px;
+    }
+
+    .price_inf{
+        padding: 10% 19% 5% 19%; 
+    }
+
+    .card_cont{
+        height: auto;
+        flex-wrap: wrap;
+    }
+
+    .footer_top{
+        flex-wrap: wrap;
+    }
+
+    .Cartrix_div{
+        width: 46%;
+        align-items: center;
+    }
+
+    .Title_and_Menu{
+        width: 90%;
+    }
+
+
+    .footer_bot{
+        margin-top: 40px;
+    }
+
+    #Cartrix{
+        text-align: center;
+    }
+
+    .footer_second{
+        text-align: center;
+    }
+}
+
+@media (max-width: 707px) {
+
+    .experience{
+        margin-left: 30px
+    }
+
+    .QandA{
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .feedback{
+        margin-right: 30px;
+    }
+}
+
+@media (max-width: 596px) {
+    
+    .works{
+        scale: 100%;
+        display: none;
+    }
+}
+
+@media (max-width: 425px) {
+
+    #service{
+        font-size: 17px;
+    }
+
+    .Creative_work{
+        display: none;
+    }
+     
+    .feedback{
+        margin: 0;
+    }
+
+    .QandA{
+        margin: 0;
+    }
+
+    .experience{
+        margin: 0;
+    }
+
+    .numbers{
+        font-size: 40px;
+    }
+
+    .sec_span{
+        text-align: center;
+    }
+
+    #first_article{
+        text-align: center;
+    }
+
+    .section.first{
+        height: 600px;
+    }
+
+    .best_ser{
+        text-align: center;
+    }
+
+    .BQ{
+        width: 80%;
+    }
+
+    #wwhfy_h1{
+        text-align: center;
+    }
+
+    h2{
+        text-align: center;
+    }
+
+    h1{
+        font-size: 39px;
+    }
+
+    .kart{
+        height: 400px;
+        width: 95%;
+    }
+
+    #SFMCW{
+        text-align: center;
+    }
+
+    #An_all{
+        font-size: 25px;
+    }
+
+    .price_card{
+        width: 90% 
+    }
+
+    .price_inf{
+        padding: 10% 17% 5% 17%;
+    }
+
+    #sub_to_get{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .Cartrix_div{
+        width: 75%;
+    }
+
+    .menu{
+        width: 70px;
+    }
+    .works{
+        display: block;
+        scale: 67%;
+        margin: 100px;
+    }
+    .cont_kart.second{
+
+    }
+
+    .h1_h2_wwhfy{
+        margin-top: 100px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+@media (max-width: 375px) {
+
+    
+
+    .burg_button{
+        width: 31px;
+        background-color: #040F28;
+        scale: 200%;
+    }
+
+    .Hy{
+        margin-top: 40px;
+    }
+    .numbers{
+        font-size: 36px
+    }
+    .third_span{
+        font-size:  14px;
+        margin-top: 15px;
+    }
+    #An_all {
+        font-size: 20px;
+    }
+    .kart{
+        height:415px
+    }
+    .Cartrix_div{
+        margin-bottom: 20px;
+    }
+    #sub_to_get{
+        font-size:35px
+    }
+    .footer_second{
+        font-size: 12px
+    }
+}
+
+@media (max-width: 320px) {
+    .third_span{
+        font-size: 13px
+    }
+    .kart{
+        height:500px
+    }
+    .sub_inf{
+
+    }
+    #sub_to_get{
+        font-size:34px;
+    }
+    .subscribe{
+        height: 400px;
+    }
+
+    .main_span_2 {
+        font-size: 25px;
+    }
+
+    .last_class_i_hope{
+        text-align: center;
+    }
+
+    .Title_and_Menu{
+        flex-wrap: wrap;
+    }
+
+    .menu{
+        width: 40%;
+        margin-bottom: ;
+    }
+
+}
+
+
+
+@keyframes freel{
+    0%{
+        rotate: 0deg;
+    }
+    100%{
+        rotate: 360deg;
+    }
+}
+
+@keyframes boss{
+    0%{
+        opacity: 0%;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
+
