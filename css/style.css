@@ -410,7 +410,7 @@ h2{
 
 .kart{
     position: relative;
-    width: 580px;
+    width: 49%;
     height: 267px;
     background-color: #FFFFFF;
     border-radius: 15px;
@@ -508,9 +508,13 @@ h2{
     color: #999999;
 }
 
+.cveti{
+    width: 100%;
+}
+
 .cont_kart.second{
     align-content: space-between;
-    height: 664px;
+    height: auto;
     margin-bottom: 144px;
 }
 
@@ -783,9 +787,11 @@ h2{
     width: 205px;
 }
 
-.EBYCHAYA_PALKA{
-
+.works{
+    width: 48%;
+    margin: 1%;
 }
+
 
 @media (max-width: 1440px){
     
@@ -807,7 +813,7 @@ h2{
 
     .cont_kart.second{
         align-content: space-between;
-        height: 664px;
+        height: auto;
         margin-bottom: 144px;
     }
 
@@ -892,7 +898,7 @@ h2{
     }
 
     .works{
-        padding-bottom: 50px;
+
     }
     
     .price_card{
@@ -917,7 +923,29 @@ h2{
     }
 }
 
+@media (max-width: 1010px){
+    .kart{
+        width: 49%;
+    }
+}
 
+@media (max-width: 980px){
+    .kart{
+        width: 90%;
+    }
+    .cont_kart{
+        justify-content: center;
+    }
+    .kart_flex{
+        width: 90%;
+    }
+    .inf_ins{
+        width: 90%;
+    }
+    .sec_span_2{
+
+    }
+}
 
 @media (max-width: 830px) {
     
@@ -1065,8 +1093,7 @@ h2{
     }
 
     .works{
-        scale: 120%;
-        padding-bottom: 120px;
+        width: 90%;
     }
     
     #our_price{
@@ -1118,6 +1145,9 @@ h2{
 
 @media (max-width: 707px) {
 
+    #SFMCW{
+        text-align: center;
+    }
     .experience{
         margin-left: 30px
     }
@@ -1135,10 +1165,18 @@ h2{
 @media (max-width: 596px) {
     
     .works{
-        scale: 100%;
-        display: none;
+
     }
 }
+
+@media (max-width: 505px){
+    .QandA{
+        margin: 0;
+    }
+    .experience{
+        margin-left: 10px;
+    }
+} 
 
 @media (max-width: 425px) {
 
@@ -1147,9 +1185,9 @@ h2{
     }
 
     .Creative_work{
-        display: none;
+
     }
-     
+
     .feedback{
         margin: 0;
     }
@@ -1232,9 +1270,11 @@ h2{
         width: 70px;
     }
     .works{
-        display: block;
-        scale: 67%;
-        margin: 100px;
+        width: 90%;
+    }
+
+    .h1_h2_wwhfy{
+        margin-bottom: 40px;
     }
     .cont_kart.second{
 
@@ -1332,8 +1372,6 @@ h2{
     }
 
 }
-
-
 
 @keyframes freel{
     0%{
